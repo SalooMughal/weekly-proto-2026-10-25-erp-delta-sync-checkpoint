@@ -1,0 +1,12 @@
+{
+  "name": "erp-delta-sync-checkpoint",
+  "version": "0.1.0",
+  "description": "Small demo: resumable, checkpointed delta sync from a mock ERP (NetSuite-style) API with keyset pagination and 429 governance handling.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "demo": "node src/demo.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" }
+}
